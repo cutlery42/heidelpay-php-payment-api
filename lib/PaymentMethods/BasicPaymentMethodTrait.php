@@ -210,7 +210,7 @@ trait BasicPaymentMethodTrait
      *
      * @return array
      */
-    public function jsonSerialize()
+    public function jsonSerialize(): mixed
     {
         $return = [];
         foreach (get_object_vars($this) as $field => $value) {
