@@ -14,6 +14,7 @@ namespace Heidelpay\PhpPaymentApi\ParameterGroups;
  *
  * @package heidelpay\php-payment-api\parameter-groups
  */
+#[\AllowDynamicProperties]
 abstract class AbstractParameterGroup implements ParameterGroupInterface
 {
     /**
